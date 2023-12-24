@@ -1,0 +1,251 @@
+{
+  "airports": [
+    {
+      "code": "IST",
+      "city": "Istanbul",
+      "name": "Istanbul Airport"
+    },
+    {
+      "code": "ATL",
+      "city": "Atlanta",
+      "name": "Hartsfield-Jackson Atlanta International Airport"
+    },
+    {
+      "code": "LHR",
+      "city": "London",
+      "name": "Heathrow Airport"
+    }
+  ],
+  "airlines": [
+    {
+      "code": "Turkish Airlines",
+      "name": "Turkish Airlines"
+    },
+    {
+      "code": "DL",
+      "name": "Delta Air Lines"
+    },
+    {
+      "code": "BA",
+      "name": "British Airways"
+    }
+  ],
+  "flights": [
+    {
+      "id": 1,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-01T12:00:00",
+      "arrivalTime": "2024-01-01T18:00:00",
+      "duration": 360,
+      "price": 500.00
+    },
+    {
+      "id": 2,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-01T08:00:00",
+      "arrivalTime": "2024-01-01T12:00:00",
+      "duration": 320,
+      "price": 550.00
+    },
+    {
+      "id": 3,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-01T12:00:00",
+      "arrivalTime": "2024-01-02T06:00:00",
+      "duration": 660,
+      "price": 900.00
+    },
+    {
+      "id": 4,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-01T14:00:00",
+      "arrivalTime": "2024-01-02T06:00:00",
+      "duration": 660,
+      "price": 950.00
+    },
+    {
+      "id": 5,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-02T12:00:00",
+      "arrivalTime": "2024-01-02T18:00:00",
+      "duration": 360,
+      "price": 500.00
+    },
+    {
+      "id": 6,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-02T08:00:00",
+      "arrivalTime": "2024-01-02T12:00:00",
+      "duration": 320,
+      "price": 550.00
+    },
+    {
+      "id": 7,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-02T12:00:00",
+      "arrivalTime": "2024-01-03T06:00:00",
+      "duration": 660,
+      "price": 900.00
+    },
+    {
+      "id": 8,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-02T14:00:00",
+      "arrivalTime": "2024-01-03T06:00:00",
+      "duration": 660,
+      "price": 950.00
+    },
+    {
+      "id": 9,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-03T12:00:00",
+      "arrivalTime": "2024-01-03T18:00:00",
+      "duration": 360,
+      "price": 500.00
+    },
+    {
+      "id": 10,
+      "departureAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "arrivalAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-03T08:00:00",
+      "arrivalTime": "2024-01-03T12:00:00",
+      "duration": 320,
+      "price": 550.00
+    },
+    {
+      "id": 11,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-03T12:00:00",
+      "arrivalTime": "2024-01-04T06:00:00",
+      "duration": 660,
+      "price": 900.00
+    },
+    {
+      "id": 12,
+      "departureAirport": {
+        "code": "ATL",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport"
+      },
+      "arrivalAirport": {
+        "code": "IST",
+        "city": "Istanbul",
+        "name": "Istanbul Airport"
+      },
+      "airline": "Turkish Airlines",
+      "departureTime": "2024-01-03T14:00:00",
+      "arrivalTime": "2024-01-04T06:00:00",
+      "duration": 660,
+      "price": 950.00
+    }
+  ]
+}
